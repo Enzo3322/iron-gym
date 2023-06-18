@@ -115,3 +115,66 @@
     }
   }
 }
+
+.experience {
+  background: linear-gradient(90deg, #000000e9 50%, #000000e9 50%),
+    url("../public/xp-bg.png");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  .left {
+    width: 100%;
+    h2 {
+      font-size: 96px;
+      font-family: bebas neue;
+      b {
+        color: #ff0000;
+      }
+    }
+    p {
+      font-family: Poppins;
+      margin-bottom: 24px;
+    }
+    button {
+      border: 1px solid #ff0000;
+      padding: 24px 40px;
+      color: #ff0000;
+      background-color: transparent;
+      font-size: 21px;
+      font-family: bebas neue;
+    }
+  }
+  .right {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    img {
+      max-width: 400px;
+    }
+  }
+}
+
+.professionals {
+  padding: 100px;
+  .header {
+    h2 {
+      font-family: bebas neue;
+      font-size: 96px;
+      text-align: center;
+      line-height: 90px;
+      margin-bottom: 2rem;
+      b {
+        color: #ff0000;
+      }
+    }
+    p {
+      text-align: center;
+      margin: 0 auto;
+      font-size: 16px;
+      font-family: Poppins;
+      max-width: 500px;
+    }
+  }
+}
