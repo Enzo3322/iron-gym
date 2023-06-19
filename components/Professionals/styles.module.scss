@@ -1,0 +1,22 @@
+.item {
+  border: 1px solid #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  img {
+    max-width: 100%;
+  }
+  p {
+    margin-top: -170px;
+    font-size: 38px;
+    font-family: bebas neue;
+    text-align: center;
+  }
+  svg {
+    margin-bottom: 50px;
+    width: 30px;
+    fill: yellow;
+  }
+}

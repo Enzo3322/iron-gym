@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+import Professionals from "@/components/Professionals";
 import styles from "../styles/home.module.scss";
 import Navbar from "@/components/Navbar";
 
@@ -129,6 +131,7 @@ export default function Home() {
             workout routine
           </p>
         </div>
+        <Professionals />
       </section>
     </>
   );
