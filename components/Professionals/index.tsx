@@ -7,22 +7,22 @@ export default function Professionals() {
   const slideContent = [
     {
       img: "1.png",
-      name: "RONNIE COLLEMAN",
+      name: "JHON DOE",
       rate: 3,
     },
     {
       img: "2.png",
-      name: "RONNIE COLLEMAN",
+      name: "JANE DOE",
       rate: 5,
     },
     {
       img: "3.png",
-      name: "RONNIE COLLEMAN",
+      name: "JHON DOE",
       rate: 5,
     },
     {
       img: "4.png",
-      name: "RONNIE COLLEMAN",
+      name: "JANE DOE",
       rate: 5,
     },
   ];
@@ -37,7 +37,9 @@ export default function Professionals() {
       {slideContent.map((item, i) => (
         <SwiperSlide key={i}>
           <div className={styles.item}>
-            <img src={item.img} />
+            <picture>
+              <img src={item.img} alt="" />
+            </picture>
             <p>{item.name}</p>
             <div>
               {Array.from(Array(item.rate).keys()).map((item, i) => (

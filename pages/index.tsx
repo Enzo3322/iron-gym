@@ -133,6 +133,32 @@ export default function Home() {
         </div>
         <Professionals />
       </section>
+
+      <section className={styles.contact}>
+        <div className={styles.container}>
+          <div className={styles.imageContainer}>
+            <img src="./contact.png" alt="" />
+          </div>
+          <div className={styles.textContainer}>
+            <p className={styles.title}>
+              Let’s start gym <b>training now</b>
+            </p>
+            <p className={styles.subtitle}>
+              get 50% off the first three classes you sign up for this month any
+              GYM membership
+            </p>
+
+            <form action="">
+              <div className={styles.inputContainer}>
+                <input type="text" placeholder="Enter your name..." />
+                <input type="text" placeholder="Numbers phone..." />
+                <input type="text" placeholder="Your email address..." />
+              </div>
+              <button>LETS JOIN NOW</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

@@ -178,3 +178,76 @@
     }
   }
 }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  .container {
+    background-color: #000000;
+    border: 1px solid #ff0000;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    max-width: 1240px;
+    width: 100%;
+    .imageContainer {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-width: 400px;
+      }
+    }
+    .textContainer {
+      width: 50%;
+      .title {
+        font-size: 90px;
+        font-family: Bebas neue;
+        font-weight: 700;
+        b {
+          color: #ff0000;
+        }
+      }
+      .subtitle {
+        font-family: Poppins;
+        font-weight: 300;
+        font-size: 16px;
+      }
+      form {
+        margin-top: 40px;
+        .inputContainer {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 24px;
+          input {
+            &:nth-child(1),
+            &:nth-child(2) {
+              width: 250px;
+            }
+            width: 524px;
+            border: 1px solid #fff;
+            color: #fff;
+            padding: 16px 24px;
+            background-color: #000;
+            &::placeholder {
+              color: #fff;
+            }
+          }
+        }
+        button {
+          margin-top: 24px;
+          border: 1px solid #ff0000;
+          color: #ff0000;
+          font-size: 21px;
+          font-weight: 500;
+          font-family: Bebas neue;
+          padding: 24px 40px;
+          background: #000;
+        }
+      }
+    }
+  }
+}
